@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nature</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section class="showcase">
+        <header>
+            <h2 class="logo">travel</h2>
+            <div class="toggle"></div>
+
+        </header>
+        <video src="nature.mp4" muted loop autoplay></video>
+        <div class="overplay"></div>
+        <div class="text">
+            <h2>never stop</h2>
+            <h3>Exploring the world </h3>
+            <p> The world is yours to explore, so never stop exploring unseen and make only memories leave only footprints. I know the bitter truth that every time if you do pre-planning for travelling it never successive as much as unplanned trip go success. So you need the best travel service itinerary providers who manage everything regarding your travelling.
+            </p>
+            <a href="#">Explore</a>
+        </div>
+        <ul class="social">
+            <li><a href="https://www.facebook.com/sahilsomnath.mandhare" target="_blank"><img src="https://i.ibb.co/x7P24fL/facebook.png"></a></li>
+            <li><a href="#"><img src="https://i.ibb.co/Wnxq2Nq/twitter.png"></a></li>
+            <li><a href="https://www.instagram.com/sahil_m2022/?hl=en" target="_blank"><img src="https://i.ibb.co/ySwtH4B/instagram.png"></a></li>
+          </ul>
+    </section>
+           <div class="menu">
+               <ul>
+                   <li><a href="#">Home</a></li>
+                   <li><a href="https://news.google.com/topstories?hl=en-IN&gl=IN&ceid=IN:en"target="_blank">News</a></li>
+                   <li><a href="https://www.google.com/maps/@18.528205,73.9292465,12.22z"target="_blank">Destination</a></li>
+                   <li><a href="https://masterblogging.com/best-travel-blogs/"target="_blank">Blog</a></li>
+                   <li><a href="http://127.0.0.1:5500/contact.html"target="_blank">Contact</a></li>
+               </ul>
+           </div>
+           <script>
+               const menuToggle = document.querySelector('.toggle')
+               const showcase = document.querySelector('.showcase')
+               menuToggle.addEventListener('click',()=>{
+                   menuToggle.classList.toggle('active')
+                   showcase.classList.toggle('active')
+               }) 
+           </script>
+    
+
+    </body>
+</html>
